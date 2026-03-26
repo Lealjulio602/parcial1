@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORMULARIOS-Julio Leal -602</title>
+</head>
+<body>
+
+	<h2>Formularios</h2>
+	<h4>Por:Julio Cesar Leal Garcia 602</h4>
+	<p>Los formularios son campos que permiten el ingreso de datos a la pagina ,esto permite la interacion con el usario. </p>
+	<hr>
+
+
+	<form  method="POST">
+		
+		<label>Nombre:</label>
+		<input type="text" name="nombre" placeholder="Nombre completo" size="50" required>
+
+		<br>
+		<label>Correo Electronico:</label>
+		<input type="email" name="Correo" placeholder="Escribe tu correo" size="39">
+
+		<br>
+		<label>Contraseña:</label>
+		<input type="password" name="clave"
+		placeholder="Minimo 8 Caracteres" minlength="8">
+		
+		<br>
+		<label>Fecha de nacimiento:</label>
+		<input type="date" name="fecha" required>
+
+		<br>
+		<label>Nacionalidad:</label>
+		<select>
+			<option selected disabled>SELECIONA PAIS </option>
+			<option>MEXICO</option>
+			<option>JAPON</option>
+			<option>NORCOREA</option>
+			<option>ESTADOS UNIDOS</option>
+			<option>PERU</option>
+			<option>RUSSIA</option>
+			<option>SIRIA</option>
+			<option>BRASIL</option>
+			<option>CHINA</option>
+			<option>INDIA</option>
+		</select>
+		
+		<br>
+		<label>Seleciona tus pasatiempos:</label>
+		<br><input type="checkbox" name="">Leer <br>
+		<input type="checkbox" name="">escuchar musica <br>
+		<input type="checkbox" name="">pintar <br>
+		<input type="checkbox" name="">Escribr <br>
+		<input type="checkbox" name="">Wachar Peliculas<br>
+
+		<label>Genero:</label>
+		Hombre <input type="radio" name="Genero">
+		Mujer <input type="radio" name="Genero">
+		Prefiero no decirlo <input type="radio" name="Genero">
+		<br>
+
+		<label>Sube tu foto:</label>
+		<input type="file" name="archivo">
+		<br>
+
+		<label>Escribe un mensaje:</label>
+		<br>
+		<textarea required placeholder="Escribe un Mensaje"></textarea>
+		
+		<br>
+		<br>
+		
+		<input type="submit" name="boton"
+		value="Contacta al 602">
+		<input type="reset" name="Limpiar">
+
+		<hr>
+     <h3>Para volver al proyecto. </h3>
+
+
+    <a href="../index.html">inicio</a>
+
+
+	</form>
+
+
+</body>
+</html>
