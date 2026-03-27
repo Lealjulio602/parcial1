@@ -1,0 +1,23 @@
+body{
+background-color:darkred;
+color: yellow;
+font-family:courier;}
+
+/*titulos centrados*/
+h1,h3,p{
+text-align: center; 
+}
+/* Parrafos , deben tener aqua, tamaño 18 e interliniado  25px */
+p{ 
+	color: aqua;
+	font-size: 18px;
+	line-height: 25px;
+}
+/*parrafo dos color negro formato negritas ,y letra inclidada e interlineado de 15px*/
+.maldito{
+color: rgb(0, 0, 0);
+ font-weight: bolder;
+font-style: italic;
+line-height: 15px;
+
+ }
